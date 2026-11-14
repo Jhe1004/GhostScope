@@ -1,0 +1,5 @@
+{
+  "Jaltomata_eligible_fixed_ghost_models": 17,
+  "Jaltomata_all_eligible_two_chains_below_interval_ratio_cutoff": true,
+  "scope": "Recorded initial cumulative or final dual-window eligibility is retained per task; no claim of independent 500k raw-trace recomputation."
+}

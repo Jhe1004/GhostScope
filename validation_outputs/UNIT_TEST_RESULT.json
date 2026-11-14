@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "returncode": 0,
+  "seconds": 1.269227083,
+  "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/UNIT_TESTS.log",
+  "tests": 48,
+  "skipped": false,
+  "status": "PASS"
+}

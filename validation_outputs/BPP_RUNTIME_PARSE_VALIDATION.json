@@ -1,0 +1,170 @@
+{
+  "binary": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/round8_456_boundaries_20261108/bin/bpp",
+  "rows": [
+    {
+      "model": "ghost",
+      "mode": "default",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.011568042,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "ghost",
+      "mode": "default",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.007793416999999997,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "ghost",
+      "mode": "locusrate",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.008468207999999998,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "ghost",
+      "mode": "locusrate",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.008162166999999998,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "ghost",
+      "mode": "clock2",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.009144540999999992,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "ghost",
+      "mode": "clock2",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.010656791999999998,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "inflow",
+      "mode": "default",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.012248791999999994,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "inflow",
+      "mode": "default",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.007775083000000002,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "inflow",
+      "mode": "locusrate",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.007918042,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "inflow",
+      "mode": "locusrate",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.008833958000000003,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "inflow",
+      "mode": "clock2",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.008570625000000012,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "inflow",
+      "mode": "clock2",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.008196292000000022,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "outflow",
+      "mode": "default",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.007792958999999988,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "outflow",
+      "mode": "default",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.007833959000000001,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "outflow",
+      "mode": "locusrate",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.009252457999999991,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "outflow",
+      "mode": "locusrate",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.00783104100000001,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "outflow",
+      "mode": "clock2",
+      "chain": 1,
+      "returncode": 0,
+      "seconds": 0.008788540999999983,
+      "trace_written": true,
+      "last_output": ""
+    },
+    {
+      "model": "outflow",
+      "mode": "clock2",
+      "chain": 2,
+      "returncode": 0,
+      "seconds": 0.00857274999999999,
+      "trace_written": true,
+      "last_output": ""
+    }
+  ],
+  "passed": 18,
+  "total": 18,
+  "scope": "4-locus parse-and-sampling smoke; not convergence or biological validation"
+}

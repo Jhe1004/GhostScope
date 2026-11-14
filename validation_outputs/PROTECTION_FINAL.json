@@ -1,0 +1,14 @@
+{
+  "phase": "final",
+  "baseline_entries": 157381,
+  "baseline_sha256": "0f1393ae6982b2418ab8531c0558dc9d72d02c7588deab7ea610705e8f2640f4",
+  "baseline_changed_or_removed": [],
+  "session_files": 347432,
+  "session_changed_or_removed": [],
+  "session_added_outside_package": [],
+  "v2_files": 66,
+  "v2_changed": [],
+  "seconds": 146.39268554199998,
+  "provenance_status": "HISTORICAL_DEV_WORKSPACE_SNAPSHOT_NOT_USED_AS_LIVE_ARCHIVE_CHECK",
+  "public_archive_live_check_note": "In the standalone public archive, tools/protect.py recomputes live SHA-256 hashes against PUBLIC_ARCHIVE_SHA256.tsv and writes PROTECTION_PUBLIC_ARCHIVE_LIVE.json."
+}

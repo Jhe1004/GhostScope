@@ -1,0 +1,81 @@
+{
+  "kind": "Synthetic saved-summary fixture; no raw-draw convergence validation claimed",
+  "summary": [
+    {
+      "id": "synthetic_ghost",
+      "system": "synthetic",
+      "loci": 100,
+      "model": "ghost",
+      "mode": "default",
+      "partition": null,
+      "samples_config": "single",
+      "stable_operational": true,
+      "cumulative_all_parameter_columns_strict": true,
+      "recent_all_parameter_columns_strict": true,
+      "lnL_means": [
+        -100.0,
+        -99.98
+      ],
+      "phi": [
+        {
+          "parameter": "phi:1<-2:H<-R",
+          "posterior_mean_phi": 0.15,
+          "means_by_chain": [
+            0.15,
+            0.15
+          ],
+          "supported_by_chain": [
+            true,
+            true
+          ],
+          "count_below_eps_by_chain": [
+            0,
+            0
+          ],
+          "samples_by_chain": [
+            2000,
+            2000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic_inflow",
+      "system": "synthetic",
+      "loci": 100,
+      "model": "inflow",
+      "mode": "default",
+      "partition": null,
+      "samples_config": "single",
+      "stable_operational": true,
+      "cumulative_all_parameter_columns_strict": true,
+      "recent_all_parameter_columns_strict": true,
+      "lnL_means": [
+        -98.0,
+        -97.98
+      ],
+      "phi": [
+        {
+          "parameter": "phi:1<-2:H<-R",
+          "posterior_mean_phi": 0.4,
+          "means_by_chain": [
+            0.4,
+            0.4
+          ],
+          "supported_by_chain": [
+            true,
+            true
+          ],
+          "count_below_eps_by_chain": [
+            0,
+            0
+          ],
+          "samples_by_chain": [
+            2000,
+            2000
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+dataset	input	loci	expected_regime	observed_tier	status	four_estimates	four_tolerance_pass	six_excluded	six_signs	flags
+4I-Exp0_r001	latent_genealogies	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	D	PASS	[0.166, -0.002, -0.030000000000000006]	False			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE""]"
+4I-Exp0_r002	latent_genealogies	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	D	PASS	[0.174, 0.004, -0.018000000000000002]	False			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE""]"
+4I-Exp0_r003	latent_genealogies	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	A	PASS	[0.154, -0.002, 0.014000000000000004]	True			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE"", ""UNCALIBRATED_GTEE_TOLERANCE""]"
+4I-Exp0_r004	latent_genealogies	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	A	PASS	[0.13999999999999999, -0.008, -0.002]	True			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE"", ""UNCALIBRATED_GTEE_TOLERANCE""]"
+4I-Exp0_r005	latent_genealogies	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	D	PASS	[0.15, 0.002, -0.022000000000000006]	False			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE""]"
+4I-Exp0_r001	500bp_NJ	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	D	PASS	[0.128, -0.009999999999999998, -0.027999999999999997]	False			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE"", ""SCOPE_ROUTING: TWO_RATE_PURE_TREE_MOMENT_COMPATIBLE""]"
+4I-Exp0_r002	500bp_NJ	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	A	PASS	[0.124, 0.007999999999999998, -0.012000000000000007]	True			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE"", ""SCOPE_ROUTING: TWO_RATE_PURE_TREE_MOMENT_COMPATIBLE"", ""UNCALIBRATED_GTEE_TOLERANCE""]"
+4I-Exp0_r003	500bp_NJ	500	Delta>0 (p<0.01), open-wedge routed, tier in {A,D} at 500 loci	D	PASS	[0.134, -0.002, 0.019999999999999993]	False			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE"", ""SCOPE_ROUTING: TWO_RATE_PURE_TREE_MOMENT_COMPATIBLE""]"
+4I-Exp1_r001	latent_genealogies	500	not A	D	PASS	[0.01, 0.0, 0.152]	False			[]
+4I-Exp1_r002	latent_genealogies	500	not A	D	PASS	[0.013999999999999999, 0.0, 0.13999999999999999]	False			[]
+4I-Exp1_r003	latent_genealogies	500	not A	D	PASS	[0.002, 0.0, 0.144]	False			[]
+4I-Exp2_r001	latent_genealogies	500	not A	D	PASS	[0.01, 0.0, -0.05800000000000003]	False			[]
+4I-Exp2_r002	latent_genealogies	500	not A	D	PASS	[0.014, 0.0, -0.024000000000000007]	False			[]
+4I-Exp2_r003	latent_genealogies	500	not A	D	PASS	[0.012, 0.002, -0.02600000000000002]	False			[]
+6I-Exp0_r001	latent_genealogies	500	Finite-500-locus power bound (<70/70 IUT rejections -> Tier D, not forged Tier A)	D	PASS	[0.16, 0.01, 0.003999999999999998]	True	8	49	"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE""]"
+6I-Exp0_r002	latent_genealogies	500	Finite-500-locus power bound (<70/70 IUT rejections -> Tier D, not forged Tier A)	D	PASS	[0.132, 0.01, -0.0019999999999999966]	True	0	10	"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE""]"
+6I-Exp0_r003	latent_genealogies	500	Finite-500-locus power bound (<70/70 IUT rejections -> Tier D, not forged Tier A)	D	PASS	[0.152, 0.002, 0.002]	True	0	10	"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE""]"
+6I-Exp0_r001	500bp_NJ	500	Finite-500-locus power bound (<70/70 IUT rejections -> Tier D, not forged Tier A)	D	PASS	[0.148, 0.002, 0.0019999999999999983]	True	8	11	"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE"", ""SCOPE_ROUTING: TWO_RATE_PURE_TREE_MOMENT_COMPATIBLE""]"
+6I-Exp1-E_r010	latent_genealogies	500	not A	D	PASS	[0.194, 0.002, -0.00399999999999999]	True	8	47	"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE""]"
+6I-Parallel_r010	latent_genealogies	500	not A	D	PASS	[0.174, 0.0, -5.204170427930421e-18]	True			"[""SCOPE_ROUTING: OPEN_TOPOLOGY_WEDGE"", ""TYPE_III_PARALLEL_DONOR_WARNING""]"

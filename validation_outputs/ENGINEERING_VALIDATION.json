@@ -1,0 +1,273 @@
+{
+  "unit_tests": {
+    "command": [
+      "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0,
+    "seconds": 1.269227083,
+    "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/UNIT_TESTS.log",
+    "tests": 48,
+    "skipped": false,
+    "status": "PASS"
+  },
+  "build": {
+    "command": [
+      "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/python",
+      "-m",
+      "pip",
+      "wheel",
+      ".",
+      "--no-deps",
+      "--no-build-isolation",
+      "-w",
+      "dist"
+    ],
+    "returncode": 0,
+    "seconds": 1.98779,
+    "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/WHEEL_BUILD.log"
+  },
+  "install": {
+    "command": [
+      "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--no-deps",
+      "--force-reinstall",
+      "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/dist/ghostscope-1.0.0-py3-none-any.whl"
+    ],
+    "returncode": 0,
+    "seconds": 0.4546986669999997,
+    "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/WHEEL_INSTALL.log"
+  },
+  "installed_import": {
+    "command": [
+      "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/python",
+      "-c",
+      "import ghostscope,sys; print(ghostscope.__version__); print(ghostscope.__file__); print(sys.version)"
+    ],
+    "returncode": 0,
+    "seconds": 0.01539308399999939,
+    "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/installed_import.log"
+  },
+  "imported_from_site_packages": true,
+  "cli_checks": [
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.9406414170000006,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/main_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "trees",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.5289270830000001,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/trees_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "scan",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.5640079579999995,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/scan_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "seqs",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.5522322500000003,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/seqs_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "mcmc",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.523861417,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/mcmc_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "make-bpp",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.5305809589999999,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/make-bpp_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "demo",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.5257329159999999,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/demo_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "reproduce-paper",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.4925505000000001,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/reproduce-paper_help.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "demo",
+        "-o",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/demo"
+      ],
+      "returncode": 0,
+      "seconds": 0.5796843750000011,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/demo.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "trees",
+        "-g",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/src/ghostscope/data/demo_bundle/ambiguous.nwk",
+        "--taxa",
+        "A,B,C",
+        "--outgroup",
+        "O",
+        "-o",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/trees"
+      ],
+      "returncode": 0,
+      "seconds": 0.6129512080000001,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/trees.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "scan",
+        "-g",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/round8_456_boundaries_20261108/ingroup_4/4I-Exp0_r003/genealogies.jsonl",
+        "-s",
+        "(((A1,A2),B),C);",
+        "--outgroup",
+        "Outgroup",
+        "--taxon-delim",
+        "_",
+        "-o",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/scan"
+      ],
+      "returncode": 0,
+      "seconds": 0.8396987080000002,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/scan.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "seqs",
+        "-i",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/round8_456_boundaries_20261108/ingroup_4/4I-Exp0_r003/loci",
+        "-s",
+        "(((A1,A2),B),C);",
+        "--outgroup",
+        "Outgroup",
+        "--taxon-delim",
+        "_",
+        "--nj-trees",
+        "-o",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/seqs"
+      ],
+      "returncode": 0,
+      "seconds": 0.9339367910000007,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/seqs.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "mcmc",
+        "--chains",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/bpp_suite_v48/ghost/default/chain1/chain.mcmc.txt",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/bpp_suite_v48/ghost/default/chain2/chain.mcmc.txt",
+        "-o",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/mcmc"
+      ],
+      "returncode": 0,
+      "seconds": 0.5242825409999998,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/mcmc.log"
+    },
+    {
+      "command": [
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/.venv/bin/ghostscope",
+        "make-bpp",
+        "-s",
+        "((Tst,Tsut),Tpli);",
+        "--recipient",
+        "Tst",
+        "--sister",
+        "Tsut",
+        "--out-clade",
+        "Tpli",
+        "--seqfile",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/bpp_input/data.bpp",
+        "--imap",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/bpp_input/imap.txt",
+        "--nloci",
+        "4",
+        "-o",
+        "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/bpp_suite"
+      ],
+      "returncode": 0,
+      "seconds": 0.5657337919999996,
+      "log": "/Users/jianhe/Desktop/\u6742\u4e8b/\u590d\u6742\u7cfb\u7edf\u7f51\u7edc\u7684\u53ef\u8bc6\u522b\u6027/ghostscope/validation_outputs/cli_smoke_1794389107016236000/make_bpp.log"
+    }
+  ],
+  "all_commands_under_three_seconds": true,
+  "wheel_sha256": "8f8866331cdd4511d1063162150e5dde628cc06da609a26cf25f68b69302b61a",
+  "wheel_bytes": 62841,
+  "demo_bytes": 30760,
+  "runtime_source_sha256": {
+    "src/ghostscope/__init__.py": "ef61f64e96213c500352962ecfb23914ca4e2fb82ed5eb90e8d6e18ddbf871c7",
+    "src/ghostscope/__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "src/ghostscope/_mpl.py": "f246574d86b8e5a7d91b41939ab997fd1145473784e732608718be086423124f",
+    "src/ghostscope/_r8_diagnostics.py": "319ca12836316cd9e2562665ade9acfdbaa0cba655b8c1e6f755da524adcd11e",
+    "src/ghostscope/analysis.py": "cedd8983ec8c214733f4ac76a5d504a34fa21957bf69378d9bfbb5a2e7c06cb2",
+    "src/ghostscope/benchmarks.py": "9493b4669e76bdc07819296f46234f0ddfbd81b09f595a83224913027061fdc8",
+    "src/ghostscope/bpp_generator.py": "6a394b4218f80e0f9d94ff4a53c692780cf1ce0a8bc8e05a929429b1144dd344",
+    "src/ghostscope/cli.py": "5308e369379195ffa02b707cfe823c639d5b236e8e8138e2cc18ed9ca1807d7d",
+    "src/ghostscope/data/demo_bundle/ambiguous.nwk": "f296bab108b71f30e47794d9aa60afccaa3d1bb7f743e965fe3a1565b17c9afb",
+    "src/ghostscope/data/demo_bundle/paired_summary.json": "1dd83b1b1633ac2ecd5946f40139c75366a4f72ba53589f11290ead7b2420a5a",
+    "src/ghostscope/data/demo_bundle/positive_topologies.json": "4cdefe76cf5f6948a163115cfeabbab501ed272697bc9e9a64c22369be75569b",
+    "src/ghostscope/data/six_leaf_70_contrasts.json": "4383fb9f152d2589859b9c88cb4bfff4464aedfab121747b66b9996cac303ae9",
+    "src/ghostscope/distance_engine.py": "768b113a89867563cc370a1cc2ed7c75b340bde54b96c3daa134f114fa0e494f",
+    "src/ghostscope/grading.py": "9e3f8ea24178154c3f798a8dc9e18cf1977941dacde97728eeb0c23ad13ed6af",
+    "src/ghostscope/io_parsers.py": "9fc3537ffa2480448d828805f3a23e6935fe5decf8dfdfd7aebe5af38430baca",
+    "src/ghostscope/mcmc_engine.py": "daab38298a1a121d57ea377655cd9037f76555cd6e43fdec55f1d9daa91ddd7d",
+    "src/ghostscope/report.py": "1ffaeda7000ed1cd0943de79bc0a4b276441bcd0de1db61848a4a7f34095d493",
+    "src/ghostscope/topology_engine.py": "9ab66448df0b4f7f6de8ce5b5c50aa7f28a085235c70733a907e8e1631383900"
+  },
+  "scope": "Installed wheel checked outside the source import path. BPP smoke and scientific paper acceptance are separately recorded.",
+  "status": "PASS"
+}

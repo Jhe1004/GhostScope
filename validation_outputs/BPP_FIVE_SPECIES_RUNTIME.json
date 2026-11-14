@@ -1,0 +1,152 @@
+{
+  "rows": [
+    {
+      "model": "ghost",
+      "mode": "default",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.011429374999999964
+    },
+    {
+      "model": "ghost",
+      "mode": "default",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006295874999999951
+    },
+    {
+      "model": "ghost",
+      "mode": "locusrate",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006486207999999993
+    },
+    {
+      "model": "ghost",
+      "mode": "locusrate",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006236208000000021
+    },
+    {
+      "model": "ghost",
+      "mode": "clock2",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.005938082999999983
+    },
+    {
+      "model": "ghost",
+      "mode": "clock2",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.005878500000000009
+    },
+    {
+      "model": "inflow",
+      "mode": "default",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.005658457999999977
+    },
+    {
+      "model": "inflow",
+      "mode": "default",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.005534707999999999
+    },
+    {
+      "model": "inflow",
+      "mode": "locusrate",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006265834000000026
+    },
+    {
+      "model": "inflow",
+      "mode": "locusrate",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006811792000000039
+    },
+    {
+      "model": "inflow",
+      "mode": "clock2",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.00660000000000005
+    },
+    {
+      "model": "inflow",
+      "mode": "clock2",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.007034458999999993
+    },
+    {
+      "model": "outflow",
+      "mode": "default",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.005979084000000023
+    },
+    {
+      "model": "outflow",
+      "mode": "default",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006027208000000006
+    },
+    {
+      "model": "outflow",
+      "mode": "locusrate",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.005986957999999931
+    },
+    {
+      "model": "outflow",
+      "mode": "locusrate",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006828957999999941
+    },
+    {
+      "model": "outflow",
+      "mode": "clock2",
+      "chain": 1,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.006462500000000038
+    },
+    {
+      "model": "outflow",
+      "mode": "clock2",
+      "chain": 2,
+      "returncode": 0,
+      "trace_written": true,
+      "seconds": 0.005906167000000018
+    }
+  ],
+  "passed": 18,
+  "total": 18,
+  "inputs_normalized": true,
+  "scope": "Generic five-species retained-backbone MSci runtime smoke; no convergence claim."
+}

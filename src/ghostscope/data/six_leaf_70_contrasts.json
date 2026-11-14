@@ -1,0 +1,3210 @@
+{
+  "source_sha256": "48edc6d4d08c46c3adf83eaba3113650e37558b1b196aedb8b772eb763bac2a0",
+  "standard_tips": [
+    "a",
+    "h",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "scope": "Fixed ranked binary ladder; one haplotype per species; one direct pulse versus the specified deep ghost; coordinate convention matches six_topologies.unroot. No arbitrary network mixture guarantee.",
+  "contrasts": [
+    {
+      "cell": [
+        0,
+        "a",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "a",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "d",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "a",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "a",
+              "e",
+              "h"
+            ],
+            [
+              "b",
+              "c"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e",
+              "h"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": 1
+    },
+    {
+      "cell": [
+        0,
+        "a",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "a",
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "a",
+              "b",
+              "e"
+            ],
+            [
+              "c",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "b",
+              "c"
+            ],
+            [
+              "a",
+              "c"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "b",
+              "c"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "b",
+              "c"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "d",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "b",
+              "d"
+            ],
+            [
+              "a",
+              "d"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "b",
+              "d"
+            ],
+            [
+              "a",
+              "d"
+            ],
+            [
+              "c",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "a",
+              "c",
+              "e"
+            ],
+            [
+              "b",
+              "d"
+            ]
+          ],
+          "coefficient": 1
+        }
+      ],
+      "target_sign": 1
+    },
+    {
+      "cell": [
+        0,
+        "a",
+        "h"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "b",
+        "a"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "b",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "b",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "b",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "b",
+        "h"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "c",
+        "a"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "c",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "c",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "c",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "c",
+        "h"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "d",
+        "a"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "d",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "d",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "d",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "d",
+        "h"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "e",
+        "a"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "a",
+              "b",
+              "e"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "e",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "e",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "e"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "e",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "e",
+        "h"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "a",
+              "b",
+              "e"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "d"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "h",
+        "a"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "h",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "h",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "h",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        0,
+        "h",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "c"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "b",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "b",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "b",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "b",
+        "m1"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "c",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "c",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "c",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "c",
+        "m1"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "d",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "d",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "d",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "d",
+        "m1"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "e",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "e",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "e",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "e",
+        "m1"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "m1",
+        "b"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "d"
+            ],
+            [
+              "e",
+              "h"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "d"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "c",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "m1",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "m1",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        1,
+        "m1",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "c",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "c",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "c",
+        "m2"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "d",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "d",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "d",
+        "m2"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "e",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "e",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "e",
+        "m2"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "m2",
+        "c"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "m2",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        2,
+        "m2",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        3,
+        "d",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        3,
+        "d",
+        "m3"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        3,
+        "e",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        3,
+        "e",
+        "m3"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        3,
+        "m3",
+        "d"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        3,
+        "m3",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        4,
+        "e",
+        "m4"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    },
+    {
+      "cell": [
+        4,
+        "m4",
+        "e"
+      ],
+      "terms": [
+        {
+          "coordinate": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "c",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": 1
+        },
+        {
+          "coordinate": [
+            [
+              "a",
+              "c"
+            ],
+            [
+              "b",
+              "h"
+            ],
+            [
+              "d",
+              "e"
+            ]
+          ],
+          "coefficient": -1
+        }
+      ],
+      "target_sign": -1
+    }
+  ]
+}
