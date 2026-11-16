@@ -245,8 +245,8 @@
     }
   ],
   "all_commands_under_three_seconds": true,
-  "wheel_sha256": "8f8866331cdd4511d1063162150e5dde628cc06da609a26cf25f68b69302b61a",
-  "wheel_bytes": 62841,
+  "wheel_sha256": "bf69f8d5a65ccfd7875fb5a59ba39849422f07d6a51c16eec8b139faef902f37",
+  "wheel_bytes": 62814,
   "demo_bytes": 30760,
   "runtime_source_sha256": {
     "src/ghostscope/__init__.py": "ef61f64e96213c500352962ecfb23914ca4e2fb82ed5eb90e8d6e18ddbf871c7",
